@@ -57,7 +57,7 @@ def run_process():
         messagebox.showerror("Error", f"An error occurred while processing the file: {str(e)}")
 
 root = tk.Tk()
-root.title("Boardoza")
+root.title("Tkinter")
 root.geometry("700x500")
 
 file_path = tk.StringVar()
